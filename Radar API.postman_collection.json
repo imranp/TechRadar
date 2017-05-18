@@ -1,0 +1,64 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Radar API",
+		"_postman_id": "dd204612-f645-9a11-e21e-69ee68193ff6",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET All Blips",
+			"request": {
+				"url": "http://localhost:8000/radar/blips",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST Add Blip",
+			"request": {
+				"url": "http://localhost:8000/radar/blips",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n  {\n    \"name\": \"Big Data\",          \n    \"ring\": \"hold\",\t\t\t\t\n    \"isNew\": \"FALSE\",\n    \"quadrant\": \"techniques\",   \n    \"description\": \"Desc1\"\n }\n "
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Blip",
+			"request": {
+				"url": "http://localhost:8000/radar/blips/4",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET Blip",
+			"request": {
+				"url": "http://localhost:8000/radar/blips/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
