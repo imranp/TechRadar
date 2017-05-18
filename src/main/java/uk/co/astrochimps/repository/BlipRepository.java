@@ -1,9 +1,8 @@
-package uk.co.astroshimps.repository;
+package uk.co.astrochimps.repository;
 
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
-import uk.co.astroshimps.domain.Blip;
+import uk.co.astrochimps.domain.Blip;
 
 /**
  * Created by Imran on 13-May-17.

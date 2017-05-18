@@ -1,4 +1,4 @@
-package uk.co.astroshimps.domain;
+package uk.co.astrochimps.domain;
 
 import lombok.*;
 

@@ -1,9 +1,9 @@
-package uk.co.astroshimps.web;
+package uk.co.astrochimps.web;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import uk.co.astroshimps.domain.Blip;
+import uk.co.astrochimps.domain.Blip;
 
 import java.util.ArrayList;
 import java.util.List;

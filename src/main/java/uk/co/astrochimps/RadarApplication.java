@@ -1,4 +1,4 @@
-package uk.co.astroshimps;
+package uk.co.astrochimps;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
