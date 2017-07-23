@@ -33,5 +33,4 @@ public class Blip {
         this.quadrant = quadrant;
         this.description = description;
     }
-
 }
