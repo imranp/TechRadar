@@ -7,7 +7,7 @@ import uk.co.astrochimps.domain.Blip;
 /**
  * Created by Imran on 13-May-17.
  */
-@RepositoryRestResource//(path = "radar-api/blip")
+@RepositoryRestResource
 public interface BlipRepository extends CrudRepository<Blip, Long> {
 
 }
